@@ -43,3 +43,22 @@ DATABASES = {
 - ページ確認
 
 `http://localhost:8000`
+
+
+## ローカル仮想環境構築
+
+- (初回のみ)仮想環境作成
+
+`python -m venv brb_env`
+
+- 仮想環境を有効化
+
+`source brb_env/bin/activate`
+
+- (必要あれば)モジュール読み込み
+
+`pip install -r requirements.txt`
+
+- 仮想環境を無効化
+
+`deactivate`
