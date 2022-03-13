@@ -1,0 +1,2 @@
+ps:
+	docker-compose  ps
