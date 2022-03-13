@@ -1,6 +1,9 @@
 # 環境変数
 .env
 
+# ローカル仮想環境
+brb_env/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
