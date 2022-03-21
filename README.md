@@ -62,3 +62,10 @@ DATABASES = {
 - 仮想環境を無効化
 
 `deactivate`
+
+
+## データマイグレーション
+
+- 新しくモデルを追加した時
+
+`docker-compose run web python manage.py makemigrations brb_blog`
