@@ -69,3 +69,9 @@ DATABASES = {
 - 新しくモデルを追加した時
 
 `docker-compose run web python manage.py makemigrations brb_blog`
+
+## 不要リソース削除
+
+- 停止コンテナ、タグ無しイメージ、未使用ボリューム、未使用ネットワーク一括削除
+
+`docker system prune`
